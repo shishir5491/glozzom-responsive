@@ -1,0 +1,54 @@
+.banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.rounded-circle{
+	border-radius: 50% !important;
+}
+
+.package .fa{
+	font-size: 40px;
+}
+
+.service-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.service-footer{
+	background-color: black;
+}
+
+.navbar-nav a{
+	margin-left: 15px;
+}
+
+
+footer{
+	background-color: black;
+	color: white;
+}
+
+@media(max-width: 767px){
+	section{
+		padding: 40px 0px !important;
+	}
+
+	.cartoon h2{
+		margin: 0px!important;
+		text-align: center;
+		padding-bottom: 15px;
+	}
+
+	.card1{
+		margin-bottom: 30px;
+	}
+	.card2{
+		margin-bottom: 30px;
+	}
+
+	.cartoon p{
+		text-align: justify;
+	}
+}

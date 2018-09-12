@@ -1,0 +1,19 @@
+.service-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.service-footer{
+	background-color: black;
+}
+
+.navbar-nav a{
+	margin-left: 15px;
+}
+
+
+@media(max-width:767px){
+	.one{
+		margin-bottom: 30px!important;
+	}
+}

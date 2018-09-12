@@ -1,0 +1,177 @@
+/* global css */
+
+/* header-css */
+
+.navbar-nav a{
+	margin-left: 15px;
+}
+
+.bg-dark{
+	background-color: #181819!important;
+}
+
+.carousel-inner img{
+	max-height: 400px;
+	width: 100%;
+}
+
+.image1{
+	background: url(../img/image1.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+.images2{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+.images3{
+	background: url(../img/image3.jpeg) no-repeat center top;
+	background-size: cover;
+	max-height: 550px;
+}
+
+
+.funding .fa{
+	font-size: 60px;
+}
+
+.get-started{
+	background: url(../img/pc.jpeg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+
+.overlay{
+	background: rgba(0,0,0,0.7);
+}
+
+.bootstrap{
+	background: url(../img/people.jpeg) no-repeat center top;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+}
+.bootstrap .fa{
+	font-size: 45px;
+}
+
+.gallery-section img:hover{
+	transform: scale(1.1,1.1);
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+
+footer{
+	background-color: black;
+	color: white;
+}
+
+.blog-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.contact-banner{
+	background: url(../img/image2.jpeg) no-repeat center top;
+	background-size: cover;
+}
+
+.blog-footer{
+	background-color: black;
+}
+@media(max-width: 767px){
+	h1{
+		font-size: 32px!important;
+	}
+	.carousel-item h1{
+		font-size: 32px;
+	}
+
+	.carousel-item p{
+		text-align: justify!important;
+		margin: 0px 25px !important;
+	}
+
+	.carousel-item button{
+		width: 100%;
+	}
+
+	.funding{
+		padding: 30px 0px!important;
+	}
+
+	.overlay{
+		padding: 30px 0px!important;
+	}
+	.next{
+		padding: 30px 0px!important;
+	}
+
+	.signup{
+		padding: 30px 0px!important;
+	}
+
+	.signup p{
+		text-align: justify!important;
+		margin-top: 10px!important;
+	}
+
+	.signup .button{
+		width: 100%;
+	}
+
+	.signup .form-control{
+		margin-bottom: 20px!important;
+		display: block!important;
+		margin: 20 auto 20 auto!important;
+	}
+	.gallery-section{
+		padding: 30px 0px!important;
+	}
+	.get-started p{
+		text-align: justify!important;
+	}
+	.next h3{
+		text-align: center!important;
+		margin-top: 0px!important;
+	}
+
+	.next p{
+		text-align: justify!important;
+	}
+
+	.next button{
+		margin-bottom: 30px!important;
+		width: 100%;
+	}
+
+	.card1{
+		margin-bottom: 30px;
+	}
+	.card2{
+		margin-bottom: 30px;
+	}
+	.card3{
+		margin: 0px!important;
+	}
+	.blog-post{
+		padding: 30px 0px!important;
+	}
+
+	.card1{
+		text-align: justify!important;
+	}
+
+	.card2{
+		text-align: justify!important;
+	}
+	.card3{
+		text-align: justify!important;
+	}
+
+	.contact-section{
+		padding: 30px 0px!important;
+	}
+}
